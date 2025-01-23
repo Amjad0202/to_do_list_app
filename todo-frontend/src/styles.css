@@ -1,0 +1,15 @@
+.App {
+    text-align: center;
+  }
+  
+  .task-form input {
+    margin-right: 10px;
+  }
+  
+  .task-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  

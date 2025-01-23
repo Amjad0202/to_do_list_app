@@ -46,8 +46,8 @@ Before starting, ensure you have the following installed:
 
 ### 2️⃣ Clone the Repository  
 ```bash
-git clone <repository-link>
-cd <repository-folder>
+git clone https://github.com/Amjad0202/to_do_list_app.git
+cd to_do_list_app
 ```
 
 ---

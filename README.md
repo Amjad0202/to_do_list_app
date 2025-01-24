@@ -113,12 +113,13 @@ cd to_do_list_app
 ## 📸 **Screenshots**
 
 ### 🖼️ Add Task
-![image](https://github.com/user-attachments/assets/2b54ca3b-9275-47ef-8e58-b4c729548e93)
+![image](https://github.com/user-attachments/assets/c71c5e77-6b88-4460-b9f7-e226f7c4e41e)
+
  
 
 ### 🖼️ Active & Completed Tasks
-![image](https://github.com/user-attachments/assets/dbc0030c-81cb-4eba-b89f-ea4272d634cd)
-![image](https://github.com/user-attachments/assets/db02036e-94eb-41a2-a19d-ba47d9f2a14c)
+![image](https://github.com/user-attachments/assets/fdee6c8c-61fa-4303-90d6-a2ede489a4e9)
+
 
 
 ---

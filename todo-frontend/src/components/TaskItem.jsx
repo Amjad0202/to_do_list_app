@@ -11,7 +11,7 @@ const TaskItem = ({ task, onUpdateTask, onDeleteTask }) => {
   };
 
   return (
-    <div className="task-item">
+    <div className={`task-item ${task.completed ? 'completed' : ''}`}>
       <input
         type="checkbox"
         checked={task.completed}

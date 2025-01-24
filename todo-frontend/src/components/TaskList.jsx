@@ -7,25 +7,29 @@ const TaskList = ({ tasks, onUpdateTask, onDeleteTask }) => {
 
   return (
     <div>
-      <h2>Active Tasks</h2>
-      {activeTasks.map((task) => (
-        <TaskItem
-          key={task._id}
-          task={task}
-          onUpdateTask={onUpdateTask}
-          onDeleteTask={onDeleteTask}
-        />
-      ))}
+      <div className="task-section">
+        <h2>Active Tasks</h2>
+        {activeTasks.map((task) => (
+          <TaskItem
+            key={task._id}
+            task={task}
+            onUpdateTask={onUpdateTask}
+            onDeleteTask={onDeleteTask}
+          />
+        ))}
+      </div>
 
-      <h2>Completed Tasks</h2>
-      {completedTasks.map((task) => (
-        <TaskItem
-          key={task._id}
-          task={task}
-          onUpdateTask={onUpdateTask}
-          onDeleteTask={onDeleteTask}
-        />
-      ))}
+      <div className="task-section">
+        <h2>Completed Tasks</h2>
+        {completedTasks.map((task) => (
+          <TaskItem
+            key={task._id}
+            task={task}
+            onUpdateTask={onUpdateTask}
+            onDeleteTask={onDeleteTask}
+          />
+        ))}
+      </div>
     </div>
   );
 };
